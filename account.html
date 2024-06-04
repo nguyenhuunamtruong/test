@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My account</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Public Sans"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex">
+    <aside class="w-0 hidden lg:block lg:w-[280px] border"></aside>
+    <main class="container mx-auto">
+      <header class="h-[120px] border"></header>
+      <nav class="flex ml-5 my-6">
+        <ol role="list" class="flex items-center">
+          <li class="text-left">
+            <div class="-m-1">
+              <a
+                href="#"
+                class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"
+              >
+                Home
+              </a>
+            </div>
+          </li>
+
+          <li class="text-left">
+            <div class="flex items-center">
+              <span class="mx-2 text-gray-400">/</span>
+              <div class="-m-1">
+                <a
+                  href="#"
+                  class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"
+                >
+                  Account
+                </a>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container ma flex items-center flex-wrap justify-evenly">
+        <div class="flex flex-col items-center">
+          <div class="text-justify text-[24px] pb-8 font-semibold uppercase">
+            Account Details
+          </div>
+          <img src="account-pic.png" alt="" />
+          <div>
+            <input
+              class="mt-[25px] mb-[15px] px-[28px] py-[8.5px] border rounded-[5px] border-co bg-white text-text-light"
+              type="button"
+              value="Select Image"
+            />
+          </div>
+          <div class="text-justify text-text-light text-[16px] leading-[24px]">
+            File size: maximum 1 MB<br />File extension: .JPEG, .PNG
+          </div>
+        </div>
+        <div class="flex-col">
+          <table class="text-[20px] mt-[80px]">
+            <tr>
+              <td class="py-3 pr-3">Username</td>
+              <td class="pr-3">behance2024</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-3">Email</td>
+              <td class="pr-3">behance@gmail.com</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-3">Password</td>
+              <td class="pr-3">
+                <input
+                  class="indent-[12px] border rounded-[5px] border-divider"
+                  type="password"
+                  placeholder=".................."
+                  id=""
+                />
+              </td>
+              <td class="pr-3 text-primary">Edit</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-3">Phone Number</td>
+              <td class="pr-3">0864422312</td>
+              <td class="pr-3 text-primary">Edit</td>
+            </tr>
+          </table>
+          <div class="btn flex justify-center ">
+            <button
+              class="bg-primary hover:bg-primary-dark text-[20px] text-white font-semibold py-2 px-4 rounded mt-4 w-24"
+              type="submit"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+    <footer class="h-[350px] hidden"></footer>
+  </body>
+</html>

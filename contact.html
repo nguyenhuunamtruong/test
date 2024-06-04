@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Public Sans"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex">
+      <aside class="w-0 lg:block lg:w-[280px] border"></aside>
+      <main class="container mx-auto">
+        <header class="h-[120px] border"></header>
+        <nav class="flex ml-5 my-6">
+          <ol role="list" class="flex items-center">
+            <li class="text-left">
+              <div class="-m-1">
+                <a
+                  href="#"
+                  class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"
+                >
+                  Home
+                </a>
+              </div>
+            </li>
+
+            <li class="text-left">
+              <div class="flex items-center">
+                <span class="mx-2 text-gray-400">/</span>
+                <div class="-m-1">
+                  <a
+                    href="#"
+                    class="rounded-md p-1 text-sm font-medium text-gray-600 focus:text-gray-900 focus:shadow hover:text-gray-800"
+                  >
+                    Contact
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </nav>
+        <div class="container flex-col justify-center mx-auto max-w-screen-md">
+          <h2
+            class="text-center text-dark leading-[54px] text-[40px] font-bold break-words"
+          >
+            Let’s talk about your problem
+          </h2>
+          <p
+            class="text-center text-text-normal text-lg font-semibold break-words"
+          >
+            drop us a line through the form and we’ll get back to you
+          </p>
+          <div class="flex justify-center mt-8">
+            <form action="#" class="w-3/4">
+              <div>
+                <label
+                  for="email"
+                  class="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300"
+                  >Your email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="block w-full p-2.5 border border-divider rounded h-[47px] text-lg font-semibold leading-[54px]"
+                  placeholder="email@gmail.com"
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  for="fullname"
+                  class="block my-2 text-lg font-medium text-gray-900 dark:text-gray-300"
+                  >Fullname</label
+                >
+                <input
+                  type="text"
+                  id="fullname"
+                  class="block p-3 w-full border border-divider rounded h-[47px] text-lg font-semibold leading-[54px]"
+                  placeholder="Let us know your name"
+                  required
+                />
+              </div>
+              <div class="sm:col-span-2">
+                <label
+                  for="message"
+                  class="block my-2 text-lg font-medium text-gray-900 dark:text-gray-400"
+                  >Your message</label
+                >
+                <textarea
+                  id="message"
+                  rows="6"
+                  class="block p-2.5 w-full border border-divider rounded h-[124px] flex-shrink-0 text-[20px] text-lg font-semibold leading-[54px]"
+                  placeholder="Leave a comment..."
+                ></textarea>
+              </div>
+              <div class="btn flex justify-center my-6">
+                <button
+                  class="bg-primary hover:bg-primary-dark text-[20px] text-white font-semibold py-2 px-4 rounded mt-4 w-24"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
